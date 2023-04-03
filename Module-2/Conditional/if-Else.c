@@ -13,5 +13,5 @@ int main()
     else{
         printf("\nNot elligible for vote.");
     }
-    
+
 }
