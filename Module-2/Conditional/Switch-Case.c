@@ -40,4 +40,5 @@ int main()
             printf("\nEnter valid choice............");
             break;
     }
+    return 0;
 }
