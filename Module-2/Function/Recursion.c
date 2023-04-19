@@ -1,3 +1,4 @@
+// Recursion - Function call it self
 #include<stdio.h>
 int fecto(int no)
 {
