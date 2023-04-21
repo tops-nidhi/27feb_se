@@ -10,6 +10,10 @@ int fecto(int no)
 }
 int main()
 {
-    printf("Factorial of 7 is:%d",fecto(7));
+    int no;
+
+    printf("\nFactorial of 7 is:%d",fecto(7));
+    printf("\nFactorial of 7 is:%d",fecto(5));
+    printf("\nFactorial of 7 is:%d",fecto(6));
     return 0;
 }
