@@ -1,0 +1,1 @@
+// Hybrid inheritance is combination of more then one inheritance 
