@@ -1,0 +1,12 @@
+Website:- Website is a collection of webpages.
+
+Homepage:- First page of the websites
+
+HTML:- Hyper text markup language
+    ->html is a markup language not a programming language.
+    ->html is use to create the structure of the website.
+
+
+CSS:- Cascading style sheets
+    ->css is use to create the appearance of the website.
+    ->css is use to apply the style. 
