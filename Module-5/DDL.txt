@@ -40,4 +40,7 @@ DDL:- Data Definition Language
     ->AUTO_INCREMENT column default value must be not_null 
 
 11.Add Foreign key:-
-->ALTER TABLE `salary` ADD FOREIGN KEY (`column_name`) REFERENCES `REFERENCE_table_name` (`column_name`);
+->ALTER TABLE `table_name` ADD FOREIGN KEY (`column_name`) REFERENCES `REFERENCE_table_name` (`column_name`);
+
+12.Update data:-
+->UPDATE `table_name` set `column_name`='value' WHERE  `column_name` BETWEEN 'VALUES' AND 'VALUES';
