@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        .div{
+            height: 150px;
+            width: 150px;
+            background: lightcoral;
+            transition: 1s;
+        }
+        .div:hover
+        {
+            background: navy;
+            cursor: pointer;
+        }
+        a:visited{
+            color: indigo;
+        }
+        a:active{
+            color: plum;
+        }
+        input:focus{
+            outline: none;
+            border: none;
+        }
+        p:nth-child(even)
+        {
+            background: lightsteelblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="div"></div>
+    <a href="#">This is anchor tag</a>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint, minima omnis, cum sunt blanditiis asperiores explicabo maiores amet ipsum suscipit rerum at provident, placeat ut cumque aliquid animi minus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint, minima omnis, cum sunt blanditiis asperiores explicabo maiores amet ipsum suscipit rerum at provident, placeat ut cumque aliquid animi minus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint, minima omnis, cum sunt blanditiis asperiores explicabo maiores amet ipsum suscipit rerum at provident, placeat ut cumque aliquid animi minus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint, minima omnis, cum sunt blanditiis asperiores explicabo maiores amet ipsum suscipit rerum at provident, placeat ut cumque aliquid animi minus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint, minima omnis, cum sunt blanditiis asperiores explicabo maiores amet ipsum suscipit rerum at provident, placeat ut cumque aliquid animi minus!</p>
+    </div>
+    <input type="text" name="" id="">
+</body>
+</html>
