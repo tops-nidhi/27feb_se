@@ -5,20 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <style>
+        form{
+            text-align: right;
+        }
+        form label{
+            text-align: left;
+        }
+        span{
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <fieldset>
         <legend>Log-in</legend>
         <form action="https://api.whatsapp.com/send?phone=8000599949&text=Hello,%20Nikhil%20your%20form%20submited%20successfuly">
-            <label>Name:</label>
-            <input type="text"><br><br>
+            <label><span>*</span>Name:</label>
+            <input type="text" required pattern="[a-z,A-Z]{3,5}"><br><br>
+            <input type="tel" name="" id="" placeholder="Enter your phone no.." required pattern="[0-9]{10}">
+            <br><br>
             <input type="email" id="" placeholder="Enter your email">
+            <br><br>
+            <select name="" id="">
+                <option value="s">Select</option>
+                <option value="v">Volleyball</option>
+                <option value="b">BasketBall</option>
+                <option value="f">FootBall</option>
+                <option value="h">Hockey</option>
+            </select>
             <br><br><label for="">Password:</label>
             <input type="password" name="" id="">
             <br><br>
             <textarea name="feedback" id="" cols="30" rows="3"></textarea>
             <br><br>
             <input type="submit" value="Log-in">
+            <input type="reset" value="Reset">
         </form>
     </fieldset>
 </body>
